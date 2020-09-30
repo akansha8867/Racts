@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './About.css';
 import WhatWeDo from '../images/WhatWeDo.png';
 import Process from '../images/Process.png';
+import Objective from '../images/Objective.png';
 
 function About() {
         return (
@@ -15,7 +16,9 @@ function About() {
                         <h1>What's Our Objective?</h1>
                         <p>We understand the need of getting digital in today’s world. We as a team are willing to give a boost up to businesses as well as start-ups on digital platform. RACTS prefer giving equal importance to all our clients regardless of type. All our work is customised to the needs of our clients and we do our best to fulfil client’s requirement. We are available 24/7 to answer all your queries.</p>
                     </div>
-                    <div className="objectiveRight"></div>
+                    <div className="objectiveRight">
+                        <img src={Objective} alt="WhatWeDo" />
+                    </div>
                 </div>
                 <div className="aboutWeDo">
                     <div className="aboutLeft">

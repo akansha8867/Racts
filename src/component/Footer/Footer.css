@@ -1,15 +1,35 @@
-.footerContainer {width: 100%;}
+.footerContainer {width: 100%; font-family: 'Nunito Sans', sans-serif;}
 .footerTop{ width: 100%; display: flex; background-color: #D33245; color: white;}
 .topLeft {width: 50%; text-align: left; padding: 50px;}
 .topLeft h1 {font-size: 26px; margin: 0; position: relative; z-index: 2; font-weight: 700;}
 .topLeft h1::before {content: ''; width: 10%; height: 3px; background-color: white; position: absolute; bottom: 0; z-index: 1;}
 .topLeft h6 {font-size: 18px;}
 .topLeft h6 span {font-weight: 400;}
-.infoBox {width: 40%; display: flex; flex-direction: column; margin-bottom: 20px;}
+.infoBox {width: 33.5%; display: flex; flex-direction: column; margin-bottom: 80px; justify-content: flex-start;}
 .info2 {width: 100%; display: flex; justify-content: flex-end;}
-.info1 {width: 100%; display: flex; justify-content: flex-end;}
+.info1 {width: 100%; display: flex; justify-content: flex-start;}
+.topLeft h6 {margin: 25px 0;}
 .infoBox span {font-weight: 400;}
 .infoBox h6 {margin: 0;}
 .topRight {width: 50%;}
+.topRight .email { width: 100%; text-align: left;}
+.topRight .email h6 {font-size: 18px; font-weight: 400; margin: 50px 0 20px;}
+.topRight .email input {width: 60%; padding: 10px 10px; border-radius: 8px; border: none; font-size: 18px;}
+.topRight .email input:focus {outline: none;}
+.topRight .message { width: 100%; text-align: left;}
+.topRight .message h6 {font-size: 18px; font-weight: 400; margin: 50px 0 20px;}
+.topRight .message textarea { padding: 10px 10px; border-radius: 8px; border: none; font-size: 18px; resize: none;}
+.topRight .message textarea:focus {outline: none;}
+.mailButton {width: 100%; display: flex; justify-content: flex-start; padding: 40px 0;}
+.mailButton button { color: #D33245; padding: 8px 16px; border-radius: 5px; border: none; font-weight: 600; font-family: 'Nunito Sans', sans-serif; font-size: 16px;}
+.mailButton button:hover {cursor: pointer;}
+.mailButton button:focus {outline: none;}
 .ractsLink {width: 50%; display: flex;}
+.ractsLink a {text-decoration: none; color: white;}
 .ractsLink i { font-size: 30px; margin: 20px 20px 20px 0;}
+.footerBottom {background-color: #DF4054; display: flex;}
+.bottomLeft {width: 40%; display: flex; padding: 20px 40px;}
+.bottomLeft img {width: 30%;}
+.bottomRight {width: 60%; display: flex; justify-content: center; align-items: center;}
+.bottomRight p {margin: 0; color: white; font-family: 'Nunito Sans', sans-serif; font-size: 14px;}
+.bottomRight p span {border-bottom: 2px solid white;}

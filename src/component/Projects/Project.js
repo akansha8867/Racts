@@ -19,7 +19,7 @@ function Project() {
                         </div>
                         <div className="cardDetails">
                             <h1>Adopto</h1>
-                            <p>Info about project</p>
+                            <p>A pet lover knows what pet adoption means and here's a look of our very own pet adoption website.</p>
                         </div>
                     </div>
                     <div className="card2">
@@ -28,7 +28,7 @@ function Project() {
                         </div>
                         <div className="cardDetails">
                             <h1>Medico</h1>
-                            <p>Info about project</p>
+                            <p>Medico app allows video consultation with india's top doctors connect from anywhere anytime from ayurveda to child care.</p>
                         </div>
                     </div>
                     <div className="card3">
@@ -37,7 +37,7 @@ function Project() {
                         </div>
                         <div className="cardDetails">
                             <h1>Barbara</h1>
-                            <p>Info about project</p>
+                            <p>We here know hair can be a tough thing to understand  and different products, Barbara offers a variety of styles that'd match your personality.</p>
                         </div>
                     </div>
                 </div>
