@@ -5,8 +5,7 @@
 .topLeft h1::before {content: ''; width: 10%; height: 3px; background-color: white; position: absolute; bottom: 0; z-index: 1;}
 .topLeft h6 {font-size: 18px;}
 .topLeft h6 span {font-weight: 400;}
-.infoBox {width: 33.5%; display: flex; flex-direction: column; margin-bottom: 80px; justify-content: flex-start;}
-.info2 {width: 100%; display: flex; justify-content: flex-end;}
+.infoBox {width: 100%; display: flex; flex-direction: column; margin-bottom: 80px; justify-content: flex-start;}
 .info1 {width: 100%; display: flex; justify-content: flex-start;}
 .topLeft h6 {margin: 25px 0;}
 .infoBox span {font-weight: 400;}

@@ -11,9 +11,8 @@ function Footer() {
                         <h6>Questions? Please write us at : <span>revampsociety13@gmail.com</span></h6>
                         <div className="infoBox">
                             <div className="info1">
-                                <h6>Contact Us : <span>9891198501</span></h6>
+                                <h6>Contact Us : <span>9891198501, 7291071348</span></h6>
                             </div>
-                            <div className="info2"><h6><span>7291071348</span></h6></div>
                         </div>
                         <h1>Follow Us</h1>
                         <div className="ractsLink">

@@ -8,7 +8,7 @@
 .cardImg{ width: 100%; height: 200px; display: flex; align-items: center; justify-content: center;}
 .cardImg img {width: 90%; height: 90%; margin-top: 10px;}
 .projectsMore {width: 100%; padding: 20px 0; margin-bottom: 20px;}
-.projectsMore button { padding: 12px 20px; position: relative; z-index: 20; background-image: linear-gradient(to right, #A81C31, #CE6676); border: none; color: white; font-size: 16px; box-shadow: 5px 5px 20px rgba(179,50,69,0.6);}
+.projectsMore button { padding: 12px 20px; position: relative; z-index: 20; background-image: linear-gradient(to right, #A81C31, #CE6676); border: none; color: white; font-size: 16px; box-shadow: 5px 5px 20px rgba(179,50,69,0.6); display: none;}
 .projectsMore button:hover {cursor: pointer;}
 .projectsMore button:focus {outline: none;}
 .projectsMore button::before {content: ''; width: 35px; height: 100%; background-image: linear-gradient(to right,#B33245, #AE263B); position: absolute; top: 0; bottom: 0; left: -18px; border-radius: 50%; z-index: 10;}
