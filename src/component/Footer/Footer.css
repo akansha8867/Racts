@@ -1,0 +1,15 @@
+.footerContainer {width: 100%;}
+.footerTop{ width: 100%; display: flex; background-color: #D33245; color: white;}
+.topLeft {width: 50%; text-align: left; padding: 50px;}
+.topLeft h1 {font-size: 26px; margin: 0; position: relative; z-index: 2; font-weight: 700;}
+.topLeft h1::before {content: ''; width: 10%; height: 3px; background-color: white; position: absolute; bottom: 0; z-index: 1;}
+.topLeft h6 {font-size: 18px;}
+.topLeft h6 span {font-weight: 400;}
+.infoBox {width: 40%; display: flex; flex-direction: column; margin-bottom: 20px;}
+.info2 {width: 100%; display: flex; justify-content: flex-end;}
+.info1 {width: 100%; display: flex; justify-content: flex-end;}
+.infoBox span {font-weight: 400;}
+.infoBox h6 {margin: 0;}
+.topRight {width: 50%;}
+.ractsLink {width: 50%; display: flex;}
+.ractsLink i { font-size: 30px; margin: 20px 20px 20px 0;}

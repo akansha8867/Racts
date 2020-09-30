@@ -4,6 +4,7 @@ import Navbar from "./component/Navbar/Navbar";
 import Header from "./component/Header/Header";
 import About from "./component/Aboutus/About";
 import Project from "./component/Projects/Project";
+import Footer from "./component/Footer/Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           <Header />
           <About />
           <Project />
+          <Footer />
       </div>
   );
 }
