@@ -1,0 +1,4 @@
+.navbar{height: 10vh;width: 100%; position: fixed; top: 0; display: flex; justify-content: space-between; padding: 0px 40px; align-items: center; z-index: 4; background-color: white;}
+.navbar img{height: 60%; background-color: white;}
+.navlinks{display: flex; width: 30%; height: 70%; font-size: 16px;font-family: 'Nunito Sans', sans-serif;font-weight: 500; justify-content: space-around; margin: 0 60px; align-items: center;}
+.homeli{padding: 0 20px; text-decoration: none; color: #282c34;}

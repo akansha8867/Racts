@@ -1,20 +1,16 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
-import Header from './component/Header/Header';
-import Aboutus from './component/Aboutus/About';
+import Navbar from "./component/Navbar/Navbar";
+import Header from "./component/Header/Header";
+import About from "./component/Aboutus/About";
 
 function App() {
   return (
-    <BrowserRouter>
       <div className="App">
-        <Switch>
-          <Route path='/Header' component={Header} />
-          <Route exact path='/' component={Aboutus} />
-
-        </Switch>
+          <Navbar />
+          <Header />
+          <About />
       </div>
-    </BrowserRouter>
   );
 }
 
