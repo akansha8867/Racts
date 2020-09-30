@@ -10,7 +10,7 @@ function Navbar() {
                 <ul className="navlinks" type="none">
                     <a href='#HomeContainer' className="homeli">Home</a>
                     <a href='#AboutContainer' className="homeli">About</a>
-                    <a href='#' className="homeli">Projects</a>
+                    <a href='#ProjectsContainer' className="homeli">Projects</a>
                     <a href='#' className="homeli">Contact Us</a>
                 </ul>
             </div>
