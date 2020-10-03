@@ -2,3 +2,8 @@
 .navbar img{height: 60%; background-color: white;}
 .navlinks{display: flex; width: 30%; height: 70%; font-size: 16px;font-family: 'Nunito Sans', sans-serif;font-weight: 500; justify-content: space-around; margin: 0 60px; align-items: center;}
 .homeli{padding: 0 20px; text-decoration: none; color: #282c34;}
+
+@media (max-width: 850px){
+    .navbar{display: flex; justify-content: center;padding: 0px;}
+    .navlinks{display: none;}
+}

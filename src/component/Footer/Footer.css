@@ -1,4 +1,5 @@
 .footerContainer {width: 100%; font-family: 'Nunito Sans', sans-serif;}
+.webview{width: 100%;height: 100%;}
 .footerTop{ width: 100%; display: flex; background-color: #D33245; color: white;}
 .topLeft {width: 50%; text-align: left; padding: 50px;}
 .topLeft h1 {font-size: 26px; margin: 0; position: relative; z-index: 2; font-weight: 700;}
@@ -32,3 +33,42 @@
 .bottomRight {width: 60%; display: flex; justify-content: center; align-items: center;}
 .bottomRight p {margin: 0; color: white; font-family: 'Nunito Sans', sans-serif; font-size: 14px;}
 .bottomRight p span {border-bottom: 2px solid white;}
+.mobileViewFooter{display: none;}
+
+@media (max-width: 850px){
+
+    .mobileViewFooter{width: 100%;height: 100%;display: flex;flex-direction: column;}
+    .webview{display: none;}
+    .footerTopMobile{ width: 100%; display: flex; background-color: #D33245; color: white;flex-direction: column;}
+    .topLeftMobile {width: 60%; text-align: left; padding: 20px;}
+    .topLeftMobile h1 {font-size: 25px; margin: 0; position: relative; z-index: 2; font-weight: 700;}
+    .topLeftMobile h1::before {content: ''; width: 25%; height: 3px; background-color: white; position: absolute; bottom: 0; z-index: 1;}
+    .topLeftMobile h6 {font-size: 16px;margin: 22px 0px 0px 0;}
+    .topLeftMobile h6 span {font-weight: 400;}
+    .infoBoxMobile {width: 100%; display: flex; flex-direction: column; margin-bottom: 35px; justify-content: flex-start;}
+    .info1Mobile {width: 70%; display: flex; justify-content: flex-start;flex-direction: column;}
+    .infoBoxMobile p{font-weight: 400;width: 100%;}
+    .ractsLinkMobile {width: 50%; display: flex;}
+    .ractsLinkMobile a {text-decoration: none; color: white;}
+    .ractsLinkMobile i { font-size: 36px; margin: 20px 20px 0px 0;}
+    .topRightMobile {width: 60%; text-align: left; padding: 20px;}
+    .topRightMobile .emailMobile { width: 100%; text-align: left;}
+    .topRightMobile .emailMobile h6 {font-size: 16px; font-weight: 400; margin: 20px 0 20px;}
+    .topRightMobile .emailMobile input {width: 60%; padding: 10px 10px; border-radius: 8px; border: none; font-size: 16px;}
+    .topRightMobile .emailMobile input:focus {outline: none;}
+    .topRightMobile .messageMobile { width: 100%; text-align: left;}
+    .topRightMobile .messageMobile h6 {font-size: 16px; font-weight: 400; margin: 20px 0 20px;}
+    .topRightMobile .messageMobile textarea { padding: 10px 10px; border-radius: 8px; border: none; font-size: 16px; resize: none;}
+    .topRightMobile .messageMOBILE textarea:focus {outline: none;}
+    .mailButtonMobile {width: 60%; display: flex; justify-content: flex-start; padding: 20px 0;}
+    .mailButtonMobile button { color: #D33245; padding: 6px 16px; border-radius: 5px; border: none; font-weight: 600; font-family: 'Nunito Sans', sans-serif; font-size: 14px;}
+    .mailButtonMobile button:hover {cursor: pointer;}
+    .mailButtonMobile button:focus {outline: none;}
+    .footerBottomMobile {background-color: #DF4054; display: flex;flex-direction: column;}
+    .bottomRightobile {width: 60%; display: flex; justify-content: center; align-items: center;}
+    .bottomRightMobile p {margin: 0; color: white; font-family: 'Nunito Sans', sans-serif; font-size: 14px;}
+    .bottomRightMobile p span {border-bottom: 2px solid white;}
+    .bottomLeftMobile {width: 100%; display: flex;justify-content: center;align-items: center;padding:20px 0 20px 0 ;}
+    .bottomLeftMobile img {width: 40%;}
+    
+}
