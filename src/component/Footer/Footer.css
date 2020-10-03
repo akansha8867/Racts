@@ -54,7 +54,7 @@
     .topRightMobile {width: 60%; text-align: left; padding: 20px;}
     .topRightMobile .emailMobile { width: 100%; text-align: left;}
     .topRightMobile .emailMobile h6 {font-size: 16px; font-weight: 400; margin: 20px 0 20px;}
-    .topRightMobile .emailMobile input {width: 60%; padding: 10px 10px; border-radius: 8px; border: none; font-size: 16px;}
+    .topRightMobile .emailMobile input {width: 84%; padding: 10px 10px; border-radius: 8px; border: none; font-size: 16px;}
     .topRightMobile .emailMobile input:focus {outline: none;}
     .topRightMobile .messageMobile { width: 100%; text-align: left;}
     .topRightMobile .messageMobile h6 {font-size: 16px; font-weight: 400; margin: 20px 0 20px;}
