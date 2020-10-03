@@ -37,7 +37,7 @@ function Header() {
                     </div>
 
                 </div>
-                <div className="arrow" id='AboutContainer'>
+                <div className="arrowMobile" id='AboutContainer'>
                     <img src={ArrowMobile} alt="Arrow" />
                 </div>
             </div>
