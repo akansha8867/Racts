@@ -2,6 +2,7 @@
 .extraSpace {width: 100%; height: 10vh;}
 .projectHeading h1 { margin: 0; position: relative; z-index: 2; color: #2F2E41;}
 .projectHeading h1::before {content: ''; width: 140px; height: 3px; background-color: rgba(179,50,69,0.8); position: absolute; bottom: 0; z-index: 1;}
+.projectHeading p {color: rgba(47,46,65,0.7);}
 .projectCards {width: 100%; display: flex; justify-content: center; align-items: center; padding: 30px 0;}
 .card1, .card2, .card3 {width: 24%; height: 400px; box-shadow: 5px 5px 20px rgba(179,50,69,0.3); border-radius: 22px; margin: 0 20px;color: #2F2E41;}
 .cardDetails {width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center;}
@@ -21,14 +22,12 @@
     .mobile-projectHeading h1 { margin: 0; position: relative;  color: #2F2E41;font-size: 25px;}
     .mobile-projectHeading h1::before {content: ''; width: 110px; height: 3px; background-color: rgba(179,50,69,0.8); position: absolute; bottom: 0; z-index: 1;}
     .mobile-projectCards {width: 80%; display: flex; flex-direction: column; align-items: center;margin: auto;}
-    .mobile-projectHeading p{font-size: 15px;text-align: center;margin: auto;width: 75%;margin-top: 3%;}
+    .mobile-projectHeading p{font-size: 15px;text-align: center;margin: 3% auto auto auto;width: 75%; color: rgba(47,46,65,0.7);}
 
     .mobile-card1, .mobile-card2, .mobile-card3 {width: 100%; height: 375px; box-shadow: 5px 5px 20px rgba(179,50,69,0.3); border-radius: 22px;margin-top: 20px;color: #2F2E41;}
     .mobile-cardDetails {width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center;font-size: 14px;}
     .mobile-cardDetails p {width: 80%; margin: 0; font-size: 14px;}
     .mobile-cardImg{ width: 100%; height: 200px; display: flex; align-items: center; justify-content: center;}
     .mobile-cardImg img {width: 90%; height: 90%; margin-top: 10px;}
-    .projectsMore button::before {content: ''; width: 35px; height: 100%; background-image: linear-gradient(to right,#B33245, #AE263B); position: absolute; top: 0;bottom: 0; left: -18px; border-radius: 50%; z-index: 10;}
-    .projectsMore button::after {content: ''; width: 35px; height: 100%; background-image: linear-gradient(to right, #C75A6B, #CE6676); position: absolute; top: 0;  bottom: 0; right: -18px; border-radius: 50%; z-index: 10;}
     .projectsMore button { padding: 12px 20px; position: relative; z-index: 20; background-image: linear-gradient(to right, #A81C31, #CE6676); border: none; color: white; font-size: 14px; box-shadow: 5px 5px 20px rgba(179,50,69,0.6);margin-top: 10px; }
   }

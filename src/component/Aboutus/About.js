@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import './About.css';
 import WhatWeDo from '../images/WhatWeDo.png';
 import Process from '../images/Process.png';
@@ -7,7 +7,7 @@ import Objective from '../images/Objective.png';
 function About() {
     return (
         <div>
-            <div className='aboutContainer'>
+            <div className='aboutContainer' id='AboutContainer'>
                 <div className='aboutHeading'>
                     <h1>About Us</h1>
                     <p>Be Digital ready with our Fast and Cost-effective Services.</p>
@@ -58,10 +58,10 @@ function About() {
                 <div className="mobile-aboutWeDo">
                     <div className="mobile-aboutRight">
                         <h1>What do we do?</h1>
+                        <div className="mobile-aboutLeft">
+                            <img src={WhatWeDo} alt="WhatWeDo" />
+                        </div>
                         <p>RACTS helps you to grow your business by providing you a website, mobile application or revamp your existing one at power with the advancements in digital world. We provide our clients the best solutions as early as possible.</p>
-                    </div>
-                    <div className="mobile-aboutLeft">
-                        <img src={WhatWeDo} alt="WhatWeDo" />
                     </div>
                 </div>
                 <div className="mobile-aboutProcess">

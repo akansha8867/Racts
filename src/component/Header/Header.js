@@ -19,7 +19,7 @@ function Header() {
                         <img src={FirstImage} alt="image" />
                     </div>
                 </div>
-                <div className="arrow" id='AboutContainer'>
+                <div className="arrow">
                     {/*<i class="far fa-arrow-alt-circle-down"></i>*/}
                     <img src={Arrow} alt="Arrow" />
                 </div>
@@ -37,7 +37,7 @@ function Header() {
                     </div>
 
                 </div>
-                <div className="arrowMobile" id='AboutContainer'>
+                <div className="arrowMobile">
                     <img src={ArrowMobile} alt="Arrow" />
                 </div>
             </div>
