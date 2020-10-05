@@ -51,7 +51,7 @@
     .mailButton {padding: 20px 0; width: 60%;}
     .mailButton button {padding: 6px 16px; font-size: 14px;}
     .footerBottom { display: flex; flex-direction: column;}
-    .bottomLeft {width: 100%; box-sizing: border-box; order: 2; display: flex; justify-content: center;}
+    .bottomLeft {width: 100%; box-sizing: border-box; order: 2; display: flex; justify-content: center;height: 80px;}
     .bottomLeft img {width: 40%;}
     .bottomRight {width: 100%; box-sizing: border-box; order: 1; padding: 20px 20px 10px 20px;}
 }
