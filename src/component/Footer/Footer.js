@@ -8,13 +8,15 @@ function Footer() {
     const [message, setMessage] = useState('');
     const handleSubmit = (e) => {
         e.preventDefault();
-        emailjs.send('revampsociety13','template_ie6hhir', {email, message}, 'user_V9ZHKSCqhWIESLX6WowCw').then(result => {
-            alert('Your Email has been sent');
-            setEmail('');
-            setMessage('');
-        }, error => {
-            console.log(error.text);
-        });
+        if(email !== '' && message !== '') {
+            emailjs.send('revampsociety13','template_ie6hhir', {email, message}, 'user_V9ZHKSCqhWIESLX6WowCw').then(result => {
+                alert('Your Email has been sent');
+                setEmail('');
+                setMessage('');
+            }, error => {
+                console.log(error.text);
+            });
+        }
     }
     return (
         <div className='footerContainer' id='footerContainer'>
