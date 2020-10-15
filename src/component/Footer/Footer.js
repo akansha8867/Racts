@@ -2,10 +2,13 @@ import React, {useState} from 'react';
 import './Footer.css';
 import footerLogo from '../images/logoFooter.png';
 import emailjs from 'emailjs-com'
+import Modal from "../Modal/Modal";
 
 function Footer() {
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
+    const [modal, modalValue] = useState(false);
+    const [modalNum, setModalNum] = useState('');
     const handleSubmit = (e) => {
         e.preventDefault();
         if(email !== '' && message !== '') {
@@ -18,8 +21,18 @@ function Footer() {
             });
         }
     }
+    const showModal = () => {
+        return <Modal modalValue={modalValue} modalNumber={modalNum} />;
+    }
+    const handleClick = (num) => {
+        modalValue(true);
+        setModalNum(num);
+    }
     return (
         <div className='footerContainer' id='footerContainer'>
+            {
+                modal && showModal()
+            }
             <div className="footerTop">
                 <div className="topLeft">
                     <h1>Write To Us</h1>
@@ -61,7 +74,7 @@ function Footer() {
                 </div>
                 <div className="bottomRight">
                     <p>Copyright &copy; {new Date().getFullYear()} RACTS Society Pvt. Ltd. All Rights Reserved &nbsp;
-                        <span>Privacy Policy</span> | <span>Terms of Services</span></p>
+                        <span onClick={() => {handleClick(1)}}>Privacy Policy</span> | <span onClick={() => {handleClick(2)}}>Terms of Services</span></p>
                 </div>
             </div>
         </div>
