@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import './Footer.css';
 import footerLogo from '../images/logoFooter.png';
 import emailjs from 'emailjs-com'
@@ -11,8 +11,8 @@ function Footer() {
     const [modalNum, setModalNum] = useState('');
     const handleSubmit = (e) => {
         e.preventDefault();
-        if(email !== '' && message !== '') {
-            emailjs.send('revampsociety13','template_ie6hhir', {email, message}, 'user_V9ZHKSCqhWIESLX6WowCw').then(result => {
+        if (email !== '' && message !== '') {
+            emailjs.send('revampsociety13', 'template_ie6hhir', { email, message }, 'user_V9ZHKSCqhWIESLX6WowCw').then(result => {
                 alert('Your Email has been sent');
                 setEmail('');
                 setMessage('');
@@ -63,18 +63,18 @@ function Footer() {
                             <textarea onChange={e => setMessage(e.target.value)} value={message} />
                         </div>
                         <div className="mailButton">
-                            <button>Submit</button>
+                            <button onClick={() => { handleClick(3) }}>Submit</button>
                         </div>
                     </form>
                 </div>
             </div>
             <div className="footerBottom">
                 <div className="bottomLeft">
-                    <img src={footerLogo} alt="footerLogo"/>
+                    <img src={footerLogo} alt="footerLogo" />
                 </div>
                 <div className="bottomRight">
                     <p>Copyright &copy; {new Date().getFullYear()} RACTS Society Pvt. Ltd. All Rights Reserved &nbsp;
-                        <span onClick={() => {handleClick(1)}}>Privacy Policy</span> | <span onClick={() => {handleClick(2)}}>Terms of Services</span></p>
+                        <span onClick={() => { handleClick(1) }}>Privacy Policy</span> | <span onClick={() => { handleClick(2) }}>Terms of Services</span></p>
                 </div>
             </div>
         </div>
